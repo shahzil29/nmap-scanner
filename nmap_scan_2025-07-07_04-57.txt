@@ -1,0 +1,70 @@
+# Nmap 7.94SVN scan initiated Mon Jul  7 04:57:36 2025 as: /usr/lib/nmap/nmap --privileged -sS -sV -O -T4 -oN nmap_scan_2025-07-07_04-57.txt 10.0.2.0/24
+Nmap scan report for 10.0.2.2
+Host is up (0.0026s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1001/tcp  open  webpush?
+7070/tcp  open  ssl/realserver?
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 11.8.96.4657
+MAC Address: 52:54:00:12:35:02 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Aggressive OS guesses: QEMU user mode network gateway (98%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (91%), Allied Telesyn AT-9006SX/SC switch (91%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (91%), Cabletron ELS100-24TXM Switch or Icom IC-7800 radio transceiver (89%), Cisco Catalyst 1900 switch or RAD IPMUX-1 TDM-over-IP multiplexer (89%), Tyco 24 Port SNMP Managed Switch (89%), Bay Networks BayStack 450 switch (software version 4.2.0.16) (89%), 3com OfficeConnect 812 ADSL router (89%), IBM 8275-826 switch (89%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:11.8.96.4657
+
+Nmap scan report for 10.0.2.3
+Host is up (0.0032s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1001/tcp  open  webpush?
+7070/tcp  open  ssl/realserver?
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 11.8.96.4657
+MAC Address: 52:54:00:12:35:03 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|bridge|switch|printer
+Running (JUST GUESSING): QEMU (96%), Oracle Virtualbox (94%), Bay Networks embedded (88%), Allied Telesyn embedded (87%), Samsung embedded (87%), Linux (87%), Dell embedded (87%), Wind River VxWorks (87%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:samsung:clp-315w cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:dell:1815dn cpe:/o:windriver:vxworks
+Aggressive OS guesses: QEMU user mode network gateway (96%), Oracle Virtualbox (94%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (87%), Samsung CLP-315W printer (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), Dell 1815dn printer (87%), VxWorks (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:11.8.96.4657
+
+Nmap scan report for 10.0.2.4
+Host is up (0.0031s latency).
+Not shown: 993 filtered tcp ports (no-response)
+PORT      STATE SERVICE         VERSION
+135/tcp   open  msrpc           Microsoft Windows RPC
+445/tcp   open  microsoft-ds?
+902/tcp   open  ssl/vmware-auth VMware Authentication Daemon 1.10 (Uses VNC, SOAP)
+912/tcp   open  vmware-auth     VMware Authentication Daemon 1.0 (Uses VNC, SOAP)
+1001/tcp  open  webpush?
+7070/tcp  open  ssl/realserver?
+16992/tcp open  http            Intel Active Management Technology User Notification Service httpd 11.8.96.4657
+MAC Address: 52:54:00:12:35:04 (QEMU virtual NIC)
+Warning: OSScan results may be unreliable because we could not find at least 1 open and 1 closed port
+Device type: general purpose|bridge|switch|printer
+Running (JUST GUESSING): QEMU (96%), Oracle Virtualbox (94%), Bay Networks embedded (88%), Allied Telesyn embedded (87%), Samsung embedded (87%), Linux (87%), Dell embedded (87%), Wind River VxWorks (87%)
+OS CPE: cpe:/a:qemu:qemu cpe:/o:oracle:virtualbox cpe:/h:baynetworks:baystack_450 cpe:/h:alliedtelesyn:at-9006 cpe:/h:samsung:clp-315w cpe:/o:linux:linux_kernel:2.6.18 cpe:/h:dell:1815dn cpe:/o:windriver:vxworks
+Aggressive OS guesses: QEMU user mode network gateway (96%), Oracle Virtualbox (94%), Bay Networks BayStack 450 switch (software version 3.1.0.22) (88%), Allied Telesyn AT-9006SX/SC switch (87%), Samsung CLP-315W printer (87%), Linux 2.6.18 (CentOS 5, x86_64, SMP) (87%), Dell 1815dn printer (87%), VxWorks (87%)
+No exact OS matches for host (test conditions non-ideal).
+Network Distance: 1 hop
+Service Info: OS: Windows; CPE: cpe:/o:microsoft:windows, cpe:/h:intel:active_management_technology:11.8.96.4657
+
+Nmap scan report for 10.0.2.15
+Host is up (0.00028s latency).
+All 1000 scanned ports on 10.0.2.15 are in ignored states.
+Not shown: 1000 closed tcp ports (reset)
+Too many fingerprints match this host to give specific OS details
+Network Distance: 0 hops
+
+OS and Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Mon Jul  7 04:59:23 2025 -- 256 IP addresses (4 hosts up) scanned in 106.74 seconds

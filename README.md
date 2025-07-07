@@ -1,0 +1,14 @@
+# 🔍 Nmap Subnet Scanner - Bash Script
+
+Simple Bash script to automate subnet scanning with Nmap.
+
+## 🚀 Features
+- Scans a given subnet (e.g., `10.0.2.0/24`)
+- Detects open ports and services
+- Saves results to a timestamped file
+
+## 🛠️ Usage
+
+```bash
+chmod +x nmap-scanner.sh
+./nmap-scanner.sh
