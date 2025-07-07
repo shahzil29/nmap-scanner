@@ -7,7 +7,7 @@ Simple Bash script to automate subnet scanning with Nmap.
 - Detects open ports and services
 - Saves results to a timestamped file
 
-## 🛠️ Usage
+## 🛠 Usage
 
 ```bash
 chmod +x nmap-scanner.sh
